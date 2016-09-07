@@ -5,3 +5,5 @@ env:
     - DJANGO_VERSION=1.9.8
 install:
     - pip install -r SME_UnB/requirements.txt
+script:
+    - pip install pytest-django --user
