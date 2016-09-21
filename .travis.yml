@@ -35,4 +35,4 @@ install:
 # Acceptance Tests and outhers
 script:
     - nosetests
-    - python2 manage.py test --with-coverage users/ report/
+    - python2 SME_UnB/manage.py test --with-coverage users/ report/
